@@ -20,6 +20,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="7SegmentDisplay.ino" />
+    <None Include="4DigitDisplay.ino" />
   </ItemGroup>
 </Project>
