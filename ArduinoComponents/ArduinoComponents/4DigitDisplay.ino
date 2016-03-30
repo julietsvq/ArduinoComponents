@@ -1,4 +1,4 @@
-int a = 1;
+int a = 13;
 int b = 2;
 int c = 3;
 int d = 4;
@@ -29,7 +29,7 @@ void setup() {
 void loop() {
 	clearLEDs();
 	digit(1);
-	number(0);
+	number(2);
 	delayMicroseconds(55);
 
 	clearLEDs();
@@ -118,6 +118,10 @@ void clearLEDs() {
 	digitalWrite(f, LOW);
 	digitalWrite(g, LOW);
 	digitalWrite(p, LOW);
+}
+
+void dot() {
+	digitalWrite(p, HIGH);
 }
 
 void zero() {
